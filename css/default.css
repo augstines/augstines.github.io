@@ -1,0 +1,76 @@
+@charset "gb2312";
+/* CSS Document */
+
+/***** 全局样式 Global-Style *****/
+*						{margin: 0; padding: 0;}
+html,body				{margin: 0; font: 12px/160%,"宋体"; background:#fff;}
+form,ul,li,dl,dt,dd		{margin: 0; padding: 0; list-style: none;}
+img						{border:none;}
+
+/***** 全局链接 Global-Link-Style *****/
+a			{color: #606163; font-size:12px; text-decoration: none;}
+a:hover		{color: #ff0000;}
+
+/***** 水平居中 *****/
+.cen{margin:0 auto;margin-left:auto;margin-right:auto;  }
+
+/***** 清除浮动 *****/
+.cen{clear:both; }
+.clear{ clear:both;}
+
+
+@font-face{
+	font-family: myfont;
+	src: url('./font/方正宋刻本秀楷简.ttf');
+}
+@font-face{
+	font-family: myfont01;
+	src: url('./font/汉仪细圆简.ttf');
+}
+@font-face{
+	font-family: myfont02;
+	src: url('./font/FZLTCXHJW.ttf');
+}
+
+/* 防止高度称不开 */
+.clearfix:after {content: '.';clear: both;display: block;height: 0; visibility: hidden;}
+.clearfix:after, .clearfix:before {content: " "; display: table;}
+
+
+/***** 顶部 *****/
+.top_w{ width:1200px;height:95px;padding-bottom:30px;background:#FFF; z-index:9999999999;}
+.top{ width:1200px;height:65px; padding-top:30px;padding-bottom:30px; position:fixed; background:#FFF; z-index:9999999999;}
+.top .logo{ width:204px; height:65px; float:left;}
+.top .top_kh{ width:320px; height:65px;float:left; font:20px/65px "myfont";font-weight:bold; color:#12a89d; margin-left:244px;}
+.top .nav{ width:330px; height:65px; float:right;}
+.top .nav a{ display:block; width:82px; height:65px; float:left;font:22px/65px "myfont01";font-weight:bold; color:#000; text-align:center;}
+.top .nav a:hover{color:#12a89d; }
+
+#warp{ width:1200px; }
+
+
+
+
+
+
+.footer{ border-top:4px #12a89d solid; margin-top:150px;}
+.footer ul{ width:705px; height:108px;}
+.footer ul li{ width:235px;float:left; display:block;text-align:center;}
+.footer ul li a{ width:235px;float:left; display:block;font:20px/40px "myfont01";font-weight:bold; color:#000; text-align:center;}
+.footer ul li a:hover{ color:#12a89d;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

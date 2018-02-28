@@ -1,0 +1,54 @@
+@charset "gb2312";
+/* CSS Document */
+
+/************************************** 官方服务页面 **************************************/
+.service{ width:1200px;margin-top:80px;}
+.service ul{}
+.service ul li{display:block; width:585px; height:270px; float:left; margin-right:15px; margin-bottom:52px;}
+.service ul li .serv_pic{ display:block;width:286px; height:270px; float:left;}
+.service ul li h3{display:block; width:290px; height:60px; float:left; font:29px/60px "myfont"; font-weight:bold; margin-left:8px;}
+.service ul li h3 a{ color:#000; font:29px/60px "myfont"; font-weight:bold;}
+.service ul li h3 a:hover{ color:#018b81;}
+.service ul li h3 span{font:19px/60px "宋体"; margin-left:12px; color:#12a89d;font-weight:bold;}
+.service ul li .serv_nr{ display:block;width:286px; height:210px; float:left;font:22px/32px "myfont01";font-weight:bold;margin-left:12px;}
+
+
+/************************************** 联系我们页面 **************************************/
+.contact{ width:1200px;margin-top:20px; float:left; }
+
+.contact .cont_left{ width:800px; float:left; margin-bottom:285px; }
+.contact .cont_left h3{ width:800px; float:left;font:21px/32px "myfont01";font-weight:bold; background:url(../images/lxwm_ico.jpg) no-repeat 120px center; margin-bottom:20px;}
+.contact .cont_left .cont_left_nr{ font:16px/35px "宋体";font-weight:bold; margin-top:10px; margin-left:22px; margin-right:10px;}
+
+.contact .cont_right{ width:370px; float:right;}
+.contact .cont_right h3{ width:380px; float:left;font:21px/32px "myfont01";font-weight:bold; background:url(../images/lxwm_ico.jpg) no-repeat 100px center; margin-bottom:20px;}
+.contact .cont_right .cont_right_nr{}
+.contact .cont_right .cont_right_nr p{font:20px/48px "myfont01";font-weight:bold;}
+.contact .cont_right .cont_right_nr p span{font:20px/48px "myfont02";font-weight:bold;}
+.contact .cont_right .cont_right_nr .cont_right_wx{ margin-top:10px;}
+.contact .cont_right .cont_right_nr .cont_right_wx img{ margin-top:25px;}
+
+.contact .cont_pic{ width:465px;}
+.contact .cont_pic p{ display:block; text-align:center;width:465px;font:32px/40px "myfont";font-weight:bold; color:#12a89d; margin-top:90px;}
+.contact .cont_pic p span{ display:block; text-align:center;width:465px;font:40px/40px "myfont";font-weight:bold; color:#12a89d;letter-spacing:6px;}
+
+
+/************************************** 作品页面 **************************************/
+.works{ width:1200px;margin-top:20px; float:left; }
+
+.slideTxtBox{ width:1200px;  text-align:left;  }
+.slideTxtBox .hd{ height:40px; width:1200px; line-height:30px;/*position:relative;*/ position:fixed; background:#fff; margin-top:-145px; z-index:999999;}
+.slideTxtBox .hd ul{ float:left;  position:absolute; height:40px; width:1200px;  }
+.slideTxtBox .hd ul li{ float:left; padding:0 28px; cursor:pointer;font:20px/40px "myfont01";font-weight:bold; color:#000;}
+.slideTxtBox .hd ul li.on{font:20px/40px "myfont01";font-weight:bold; color:#12a89d;}
+
+/** 切换 **/
+.slideTxtBox .bd { width:1000px; margin-top:124px;}
+.slideTxtBox .bd h3{ display:block;width:276px; height:149px; background:url(../images/zp_bt_bg.jpg) no-repeat left top;margin:0 auto;font:32px/149px "myfont";font-weight:bold; color:#fff; text-align:center; margin-bottom:75px;}
+.slideTxtBox .bd span img{display: block;}
+
+
+
+	
+	
+

@@ -1,0 +1,30 @@
+@charset "gb2312";
+/* CSS Document */
+
+/* banner */
+.banner_w {width:1200px; height:495px;}
+.banner { position: relative; width:1200px; height:495px; overflow: hidden; }
+.banner .pic{ position:relative; z-index:0; }
+.banner .pic img { width:1200px; height:495px; display: block; }
+.banner .hd { width:100%; position: absolute; bottom: 10px; text-align: center; font-size:0; z-index:1; }
+.banner .hd li{margin: 0 5px; background: url(../images/dot.png) no-repeat 0 -16px; height: 16px; overflow: hidden; width: 16px; cursor: pointer;display:inline-block; *display:inline; zoom:1;  _background: url(../images/dot8.png) no-repeat 0 -16px;}
+.banner .hd .on{ background-position:0 0; }
+
+.banner .prev,
+.banner .next { width: 60px; height: 90px; margin: -60px 0 0; display: none; background: url(../images/ad_ctr.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; filter:alpha(opacity=20);opacity:0.2;  }
+.banner .prev { left: 0; }
+.banner .next { background-position: 0 -90px; right: 0; }
+.banner .prev:hover,
+.banner .next:hover { filter:alpha(opacity=50) !important;opacity:0.5 !important;  }
+
+
+/* 合作伙伴 */
+.hzhb {width:1200px; height:550px; background:#1ea097;}
+.hzhb h3{ display:block;width:377px; height:38px;margin:0 auto; padding-top:20px; margin-top:25px;}
+.hzhb ul{ display:block; width:990px;margin:0 auto;margin-top:25px;}
+.hzhb ul li{ display:block; float:left;width:230px; height:114px;margin:20px 8px 0px 8px;}
+
+/* 最新案例 */
+.zxal {width:1200px;}
+.zxal h3{ display:block;width:178px; height:62px;margin:0 auto; margin-top:60px;}
+.zxal .al_nr{ display:block;width:1200px;}

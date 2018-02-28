@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>漫目美动漫—“动漫+”解决方案提供商</title>
+<link rel="stylesheet" type="text/css" href="css/default.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+
+<body>
+
+  <!-- top --> 
+<div class="top_w cen">
+  <div class="top cen">
+    <div class="logo"><a href="index.html"><img src="images/logo.jpg"></a></div>
+    <div class="top_kh">全方位“动漫+”解决方案提供商</div>
+    <div class="nav">
+      <a href="index.html"   >首页</a>
+      <a href="works.html"  >作品</a>
+      <a href="service.html"  >服务</a>
+      <a href="contact.html" >联系</a>
+    </div>
+  </div>
+</div>
+<!-- banner -->
+<div id="warp" class="cen clearfix"> 
+  <div class="banner_w cen">
+    <div class="banner">
+			<ul class="pic">
+					<li><a href="#" target="_blank"><img src="images/banner01.jpg"/></a></li>
+					<li><a href="#" target="_blank"><img src="images/banner02.jpg"/></a></li>
+					<li><a href="#" target="_blank"><img src="images/banner03.jpg"/></a></li>
+					<li><a href="#" target="_blank"><img src="images/banner04.jpg"/></a></li>
+			</ul>
+			<a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
+			<ul class="hd">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+    </div>
+    <script type="text/javascript">
+		/*鼠标移过，左右按钮显示*/
+		jQuery(".banner").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.2) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
+		/*SuperSlide图片切换*/
+		jQuery(".banner").slide({ mainCell:".pic",effect:"fold", autoPlay:true,interTime:8000, trigger:"click"});
+    </script> 
+  </div>
+
+  <!-- 合作伙伴 --> 
+  <div class="hzhb">
+    <h3><img src="images/sy_hzhb_bt.jpg"></h3>
+    <ul>
+      <li><img src="images/sy_hzhb01.jpg"></li>
+      <li><img src="images/sy_hzhb02.jpg"></li>
+      <li><img src="images/sy_hzhb03.jpg"></li>
+      <li><img src="images/sy_hzhb04.jpg"></li>
+      <li><img src="images/sy_hzhb05.jpg"></li>
+      <li><img src="images/sy_hzhb06.jpg"></li>
+      <li><img src="images/sy_hzhb07.jpg"></li>
+      <li><img src="images/sy_hzhb08.jpg"></li>
+      <li><img src="images/sy_hzhb09.jpg"></li>
+      <li><img src="images/sy_hzhb10.jpg"></li>
+      <li><img src="images/sy_hzhb11.jpg"></li>
+      <li><img src="images/sy_hzhb12.jpg"></li>
+    </ul>
+  </div>
+  
+  <!-- 最新案例 --> 
+  <div class="zxal">
+    <h3><img src="images/zxal_bt.jpg"></h3>
+    <div class="al_nr">
+      <img src="images/zxal.jpg">
+    </div>
+  </div>
+  
+</div>
+  
+<!-- foot --> 
+<div class="footer">
+    <ul class="cen">
+      <li><a href="http://shop.zbj.com/14269491/" target="_blank" >相关链接</a></li>
+      <li><a href="contact.html" target="_blank" >商务联系</a></li>
+      <li><a href="http://company.zhaopin.com/CC276807637.htm" target="_blank" >加入我们</a></li>
+    </ul>
+</div>
+  
+  
+</body>
+</html>
